@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关卡答案</title>
+    <style>
+        /* 简单干净的样式 */
+        body {
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        /* 关卡容器 - 纵向排列 */
+        .levels-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        /* 每个关卡的卡片 */
+        .level-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+        .level-card h2 {
+            margin: 0 0 16px 0;
+            color: #444;
+            font-size: 22px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        /* 图片占位区域 */
+        .image-placeholder {
+            width: 100%;
+            min-height: 200px;
+            background-color: #e8e8e8;
+            border: 2px dashed #bbb;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 16px;
+            overflow: hidden;
+            /* 如果放入图片，图片会自适应 */
+        }
+
+        .image-placeholder img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 6px;
+        }
+
+        /* 提示文字样式 */
+        .hint {
+            color: #aaa;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🏆 关卡展示</h1>
+
+    <div class="levels-container">
+
+        <!-- ========== 第七关 ========== -->
+        <div class="level-card">
+            <h2>🔹 第七关</h2>
+            <!-- 图片占位区域：替换下方文字为 <img src="https://raw.githubusercontent.com/yuanyna/cjtq/main/seven.png" alt="第七关图片"> -->
+            <div class="image-placeholder">
+                <span>📷 第七关图片位置</span>
+            </div>
+            <p class="hint">（请在此处填充第七关图片）</p>
+        </div>
+
+        <!-- ========== 第八关 ========== -->
+        <div class="level-card">
+            <h2>🔹 第八关</h2>
+            <!-- 图片占位区域：替换下方文字为 <img src="img src="https://raw.githubusercontent.com/yuanyna/cjtq/main/eight.png" alt="第八关图片"> -->
+            <div class="image-placeholder">
+                <span>📷 第八关图片位置</span>
+            </div>
+            <p class="hint">（请在此处填充第八关图片）</p>
+        </div>
+
+        <!-- ========== 第九关 ========== -->
+        <div class="level-card">
+            <h2>🔹 第九关</h2>
+            <!-- 图片占位区域：替换下方文字为 <img src="img src="https://raw.githubusercontent.com/yuanyna/cjtq/main/nine.png" alt="第九关图片"> -->
+            <div class="image-placeholder">
+                <span>📷 第九关图片位置</span>
+            </div>
+            <p class="hint">（请在此处填充第九关图片）</p>
+        </div>
+
+        <!-- ========== 第十关 ========== -->
+        <div class="level-card">
+            <h2>🔹 第十关</h2>
+            <!-- 图片占位区域：替换下方文字为 <img src="img src="https://raw.githubusercontent.com/yuanyna/cjtq/main/ten.png" alt="第十关图片"> -->
+            <div class="image-placeholder">
+                <span>📷 第十关图片位置</span>
+            </div>
+            <p class="hint">（请在此处填充第十关图片）</p>
+        </div>
+
+        <!-- ========== 每周挑战 ========== -->
+        <div class="level-card">
+            <h2>🔹 每周挑战</h2>
+            <!-- 图片占位区域：替换下方文字为 <img src="img src="https://raw.githubusercontent.com/yuanyna/cjtq/main/everyweek.png" alt="每周挑战图片"> -->
+            <div class="image-placeholder">
+                <span>📷 第十关图片位置</span>
+            </div>
+            <p class="hint">（请在此处填充每周挑战图片）</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
